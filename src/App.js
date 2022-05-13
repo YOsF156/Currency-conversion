@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react';
 import InputAmount from './InputAmount'
 function App() {
-  const [fromAmount, setFromAmount] = useState(1)
-  const [toAmount, setToAmount] = useState(3.5)
+  const [fromAmount, setFromAmount] = useState(1);
+  const [toAmount, setToAmount] = useState(3.5);
 
   const convert = (e) => {
     if (e.target.value >= 0) {
