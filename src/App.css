@@ -1,17 +1,18 @@
 .App {
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -24,9 +25,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 input {
   margin-top: 0.5rem;
@@ -35,6 +34,7 @@ input {
   font-size: 20px;
   height: 36px;
   border-radius: 10px;
+  color: rgb(23, 100, 58)
 }
 
 button {
@@ -47,12 +47,16 @@ button {
   cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+label {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  border-radius: 5px 0 0 5px;
+  margin-right: 5px;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.input-row {
+  text-align: center;
+  align-items: center;
+  display: flex;
 }
