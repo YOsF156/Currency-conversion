@@ -34,6 +34,7 @@ input {
   font-size: 20px;
   height: 36px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px cornflowerblue;
   color: rgb(23, 100, 58)
 }
 
@@ -48,11 +49,13 @@ button {
 }
 
 label {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  border-left: 2px solid;
-  border-radius: 5px 0 0 5px;
+  /* border-top: 2px solid; */
+  border-bottom: 3px solid;
+  /* border-left: 2px solid; */
+  border-radius: 0 0 0 5px;
   margin-right: 5px;
+  color: brown;
+
 }
 
 .input-row {
