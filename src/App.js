@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        currency convector
+        currency convertor
       </header>
       <div className="body">
         <div className="inputs">
