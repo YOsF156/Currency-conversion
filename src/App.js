@@ -29,13 +29,13 @@ function App() {
       <div className="body">
         <div className="inputs">
 
-          <InputAmount id="fromAmount" lbl={"USD"} value={fromAmount} convert={convert} pH={"type $ currency here"} />
+          <InputAmount id="fromAmount" lbl="USD" value={fromAmount} convert={convert} pH={"type $ currency here"} />
           <h4>
             <strong  >
               =
             </strong>
           </h4>
-          <InputAmount id="toAmount" lbl={"NIS"} value={toAmount} convert={convert} pH={'type ₪ currency here'} />
+          <InputAmount id="toAmount" lbl="NIS" value={toAmount} convert={convert} pH={'type ₪ currency here'} />
 
         </div>
       </div>
